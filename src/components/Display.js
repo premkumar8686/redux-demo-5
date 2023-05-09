@@ -20,7 +20,7 @@ export default function Display() {
     dispatch(increment1);
   }
 
-  let res = useSelector((state) => state);
+  let res = useSelector((state) => state.myCounter);
 
   return (
     <>
